@@ -142,7 +142,7 @@
     <WebApplication Include="$(SolutionDirectoryPath)\AcmeCorp.AspNetBuildSample.Web.Services">
       <Name>Services</Name>
       <WebSiteName>AcmeCorpAspNetBuildSample</WebSiteName>
-      <WebApplicationPoolName>AcmeCorpAspNetBuildSample.Web.Services</WebApplicationPoolName>
+      <WebApplicationPoolName>AcmeCorp.AspNetBuildSample.Web.Services</WebApplicationPoolName>
       <AnonymousAuthentication>true</AnonymousAuthentication>
       <BasicAuthentication>false</BasicAuthentication>
       <DigestAuthentication>false</DigestAuthentication>
