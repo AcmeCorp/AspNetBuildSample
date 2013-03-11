@@ -63,6 +63,7 @@
   </ItemGroup>
 
   <ItemGroup>
+    <!-- Add "WebProject" items as required. These can be packaged with MSDeploy according to the provided settings. -->
     <WebProject Include="$(SolutionDirectoryPath)\AcmeCorp.AspNetBuildSample.Web.UI\AcmeCorp.AspNetBuildSample.Web.UI.csproj">
       <Package>true</Package>
       <PackageAsSingleFile>false</PackageAsSingleFile>
