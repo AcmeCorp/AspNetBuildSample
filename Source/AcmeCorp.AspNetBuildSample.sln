@@ -1,0 +1,90 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{477B443C-D256-43F5-B34C-9FD510007864}"
+	ProjectSection(SolutionItems) = preProject
+		AcmeCorp.AspNetBuildSample.ruleset = AcmeCorp.AspNetBuildSample.ruleset
+		AcmeCorp.AspNetBuildSample.StrongNameKeyPair.snk = AcmeCorp.AspNetBuildSample.StrongNameKeyPair.snk
+		AcmeCorp.AspNetBuildSample.StrongNamePublicKey.snk = AcmeCorp.AspNetBuildSample.StrongNamePublicKey.snk
+		AcmeCorp.AspNetBuildSample.vsmdi = AcmeCorp.AspNetBuildSample.vsmdi
+		BuildServer.testsettings = BuildServer.testsettings
+		FxCopCustomDictionary.xml = FxCopCustomDictionary.xml
+		Local.testsettings = Local.testsettings
+		Settings.StyleCop = Settings.StyleCop
+		TraceAndTestImpact.testsettings = TraceAndTestImpact.testsettings
+	EndProjectSection
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AspNetBuildSample", "AcmeCorp.AspNetBuildSample\AcmeCorp.AspNetBuildSample.csproj", "{1F3CD9AE-2A00-4214-8908-1091123C08AA}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AspNetBuildSample.Tests", "AcmeCorp.AspNetBuildSample.Tests\AcmeCorp.AspNetBuildSample.Tests.csproj", "{F4577793-2E30-439E-B43C-424656BAA89D}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = ".nuget", ".nuget", "{6148229F-9BBA-45B8-B25F-B4D2D714E056}"
+	ProjectSection(SolutionItems) = preProject
+		.nuget\NuGet.Config = .nuget\NuGet.Config
+		.nuget\NuGet.exe = .nuget\NuGet.exe
+		.nuget\NuGet.targets = .nuget\NuGet.targets
+		.nuget\packages.config = .nuget\packages.config
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "CommandFiles", "CommandFiles", "{DBD3010B-8BA2-4391-AB48-F7AD9C29985F}"
+	ProjectSection(SolutionItems) = preProject
+		CommandFiles\AcmeCorp.AspNetBuildSample.Build.cmd = CommandFiles\AcmeCorp.AspNetBuildSample.Build.cmd
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Scripts", "Scripts", "{F119C513-65BD-4409-8C98-79C83D00D7B2}"
+	ProjectSection(SolutionItems) = preProject
+		Scripts\AcmeCorp.AspNetBuildSample.Build.proj = Scripts\AcmeCorp.AspNetBuildSample.Build.proj
+		Scripts\AcmeCorp.AspNetBuildSample.Build.Project.Assembly.targets = Scripts\AcmeCorp.AspNetBuildSample.Build.Project.Assembly.targets
+		Scripts\AcmeCorp.AspNetBuildSample.Build.Project.CSharp.targets = Scripts\AcmeCorp.AspNetBuildSample.Build.Project.CSharp.targets
+		Scripts\AcmeCorp.AspNetBuildSample.Build.Project.targets = Scripts\AcmeCorp.AspNetBuildSample.Build.Project.targets
+		Scripts\AcmeCorp.AspNetBuildSample.Build.Project.VisualBasic.targets = Scripts\AcmeCorp.AspNetBuildSample.Build.Project.VisualBasic.targets
+		Scripts\AcmeCorp.AspNetBuildSample.CCNet.proj = Scripts\AcmeCorp.AspNetBuildSample.CCNet.proj
+		Scripts\AcmeCorp.AspNetBuildSample.targets = Scripts\AcmeCorp.AspNetBuildSample.targets
+	EndProjectSection
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{6471E145-BC57-4D08-A2F1-0589548ACEDB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AspNetBuildSample.Web.UI", "AcmeCorp.AspNetBuildSample.Web.UI\AcmeCorp.AspNetBuildSample.Web.UI.csproj", "{01CCD833-60D0-4EF0-B47E-6EB776265E49}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AspNetBuildSample.Web.UI.Tests", "AcmeCorp.AspNetBuildSample.Web.UI.Tests\AcmeCorp.AspNetBuildSample.Web.UI.Tests.csproj", "{0E26D631-A47C-4B1E-9420-F39CE66C1D84}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "AcmeCorp.AspNetBuildSample.Web.Services", "AcmeCorp.AspNetBuildSample.Web.Services\AcmeCorp.AspNetBuildSample.Web.Services.csproj", "{F0C17CB5-816B-4F34-8785-D5FA54C24EF3}"
+EndProject
+Global
+	GlobalSection(TestCaseManagementSettings) = postSolution
+		CategoryFile = AcmeCorp.AspNetBuildSample.vsmdi
+	EndGlobalSection
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1F3CD9AE-2A00-4214-8908-1091123C08AA}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1F3CD9AE-2A00-4214-8908-1091123C08AA}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1F3CD9AE-2A00-4214-8908-1091123C08AA}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1F3CD9AE-2A00-4214-8908-1091123C08AA}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F4577793-2E30-439E-B43C-424656BAA89D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F4577793-2E30-439E-B43C-424656BAA89D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F4577793-2E30-439E-B43C-424656BAA89D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F4577793-2E30-439E-B43C-424656BAA89D}.Release|Any CPU.Build.0 = Release|Any CPU
+		{01CCD833-60D0-4EF0-B47E-6EB776265E49}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{01CCD833-60D0-4EF0-B47E-6EB776265E49}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{01CCD833-60D0-4EF0-B47E-6EB776265E49}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{01CCD833-60D0-4EF0-B47E-6EB776265E49}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0E26D631-A47C-4B1E-9420-F39CE66C1D84}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0E26D631-A47C-4B1E-9420-F39CE66C1D84}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0E26D631-A47C-4B1E-9420-F39CE66C1D84}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0E26D631-A47C-4B1E-9420-F39CE66C1D84}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F0C17CB5-816B-4F34-8785-D5FA54C24EF3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F0C17CB5-816B-4F34-8785-D5FA54C24EF3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F0C17CB5-816B-4F34-8785-D5FA54C24EF3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F0C17CB5-816B-4F34-8785-D5FA54C24EF3}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F4577793-2E30-439E-B43C-424656BAA89D} = {6471E145-BC57-4D08-A2F1-0589548ACEDB}
+		{0E26D631-A47C-4B1E-9420-F39CE66C1D84} = {6471E145-BC57-4D08-A2F1-0589548ACEDB}
+	EndGlobalSection
+EndGlobal
