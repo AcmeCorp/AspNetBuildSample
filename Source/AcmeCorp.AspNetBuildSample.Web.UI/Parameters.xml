@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<parameters >
+
+  <!-- IIS custom parameters. -->
+  <parameter name="PortBinding" description="Http:82 Binding"  defaultValue="*:90:">
+    <!-- "scope" must match the target object in IIS e.g. "Default Web Site/MyApp" or "MyWebSiteName". -->
+    <parameterEntry kind="DestinationBinding" scope="AspNetBuildSample" match=":82:" />
+  </parameter>
+  <parameter name="HostNameBinding" description="Http:80 Binding" defaultValue="*:80:www.acmecorp.com">
+    <!-- "scope" must match the target object in IIS e.g. "Default Web Site/MyApp" or "MyWebSiteName". -->
+    <parameterEntry kind="DestinationBinding" scope="AspNetBuildSample" match=":80:" />
+  </parameter>
+
+</parameters>
